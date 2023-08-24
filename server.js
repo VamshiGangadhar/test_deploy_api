@@ -12,8 +12,8 @@ app.get("/", (req, res) => {
 });
 
 app.get("/about", (req, res) => {
-  // res.send("https://portfolio-hvg.vercel.app/");
-  window.location.href("https://portfolio-hvg.vercel.app/");
+  res.send("https://portfolio-hvg.vercel.app/");
+  // window.location.href("https://portfolio-hvg.vercel.app/");
 });
 
 // Export the Express API
