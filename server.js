@@ -8,11 +8,11 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get("/", (req, res) => {
-  res.send("Hey this is my API running 🥳");
+  res.send("Hello from Vamshi");
 });
 
 app.get("/about", (req, res) => {
-  res.send("This is my about route..... ");
+  res.send("https://portfolio-hvg.vercel.app/");
 });
 
 // Export the Express API
