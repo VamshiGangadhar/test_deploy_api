@@ -16,6 +16,11 @@ app.get("/about", (req, res) => {
   // window.location.href("https://portfolio-hvg.vercel.app/");
 });
 
+app.get("/get-client-ip", (req, res) => {
+  const clientIP = req.ip; // Get the client's IP address
+  res.send(`Client IP: ${clientIP}`);
+});
+
 // Export the Express API
 
 app.listen(3000, () => {
